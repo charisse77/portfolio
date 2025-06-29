@@ -1,0 +1,21 @@
+body {
+  background-image: url('/src/assets/landingImg.jpg'); /* adjust path */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  /* position: relative; */
+  z-index: 0;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+/* .layout-wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  padding-bottom: 80px; 
+} */

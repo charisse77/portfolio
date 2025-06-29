@@ -1,34 +1,10 @@
-.home-container {
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .background-section {
+.intro-wrapper {
     position: relative;
-    width: 100%;
-    height: 100vh; 
-    overflow: hidden;
-  }
-  
-  .backgroundImg {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    z-index: 1;
-  }
-  
-  .intro-wrapper {
-    position: relative;
-    z-index: 2; 
+    z-index: 3; 
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-    height: 100%; 
-    opacity: 1;
-  }
-  
+    padding: 2rem;
+    margin-bottom: 4rem; /* leaves space above the footer */
+    }
+
