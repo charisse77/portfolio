@@ -10,6 +10,17 @@ body {
   color: #333;
 }
 
+.layout-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex-grow: 1;
+}
+
+
 /* .layout-wrapper {
   min-height: 100vh;
   display: flex;
